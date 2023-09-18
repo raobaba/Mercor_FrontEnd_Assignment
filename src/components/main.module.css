@@ -1,0 +1,306 @@
+.App {
+    text-align: center;
+  }
+  
+  body {
+    background-color: black;
+    background-image: url('../images/Picture\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100rem 50rem;
+    background-position: top;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .txt {
+    color: #fff;
+    font-family: 'Agrandir', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    animation: stores 1s 3.5s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .txt:hover {
+    color: #00d54b;
+    cursor: pointer;
+  }
+  
+  .cashText {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 13rem;
+    z-index: -20;
+    position: relative;
+    letter-spacing: 2rem;
+    animation: cashtext 2s ease-in-out forwards;
+  }
+  
+  @keyframes cashtext {
+    0% {
+      margin-top: -15rem;
+      opacity: 0;
+    }
+    100% {
+      margin-top: 7rem;
+      opacity: 1;
+    }
+  }
+  
+  .appText {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 13rem;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 1rem;
+    animation: apptext 2s ease-in-out forwards;
+  }
+  
+  @keyframes apptext {
+    0% {
+      bottom: -21rem;
+      opacity: 0;
+    }
+    100% {
+      bottom: 21rem;
+      opacity: 1;
+    }
+  }
+  
+  .dolarImage {
+    position: absolute;
+    width: 1.5rem;
+    left: 5rem;
+    top: 1rem;
+    opacity: 0;
+    animation: dolarAnimation 1s 2s ease-in-out forwards;
+  }
+  
+  @keyframes dolarAnimation {
+    0% {
+      top: -1rem;
+      opacity: 0;
+    }
+    100% {
+      top: 1rem;
+      opacity: 1;
+    }
+  }
+  
+  .mobileImage {
+    position: absolute;
+    z-index: -10;
+    top: 10rem;
+    left: 37%;
+    width: 25rem;
+    opacity: 0;
+    animation: mobileimgAnimation 2s 2s ease-in-out forwards;
+  }
+  
+  @keyframes mobileimgAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .cubeImage {
+    position: absolute;
+    height: auto;
+    width: 4rem;
+    top: -5rem;
+    left: 17rem;
+    animation: cubeAnimation 1s 2s ease-in-out forwards;
+  }
+  
+  @keyframes cubeAnimation {
+    0% {
+      top: -5rem;
+      opacity: 0;
+    }
+    100% {
+      top: 5rem;
+      opacity: 1;
+    }
+  }
+  
+  .pilarImage {
+    position: absolute;
+    height: auto;
+    width: 22rem;
+    right: 20rem;
+    opacity: 0;
+    animation: pilarAnimation 1s 2s ease-in-out forwards;
+  }
+  
+  @keyframes pilarAnimation {
+    0% {
+      bottom: -8rem;
+    }
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  
+  .stairsImage {
+    position: absolute;
+    height: auto;
+    width: 12rem;
+    right: 19rem;
+    opacity: 0;
+    animation: stairsAnimation 1s 2s ease-in-out forwards;
+  }
+  
+  @keyframes stairsAnimation {
+    0% {
+      top: -10rem;
+    }
+    100% {
+      top: 2rem;
+      opacity: 1;
+    }
+  }
+  
+  .eyeImage {
+    position: absolute;
+    height: auto;
+    width: 4rem;
+    right: 2rem;
+    top: 1rem;
+  }
+  
+  .bigstairImage {
+    position: absolute;
+    height: auto;
+    width: 14rem;
+    left: 17rem;
+    opacity: 0;
+    animation: bigAnimation 1s 2s ease-in-out forwards;
+  }
+  
+  @keyframes bigAnimation {
+    0% {
+      bottom: -8rem;
+    }
+    100% {
+      bottom: 6rem;
+      opacity: 1;
+    }
+  }
+  
+  .sm1Image {
+    position: absolute;
+    border: #fff;
+    height: auto;
+    right: 11rem;
+    bottom: 5.7rem;
+    width: 1.8rem;
+  }
+  
+  .sm2Image {
+    position: absolute;
+    border: #fff;
+    height: auto;
+    right: 7.8rem;
+    bottom: 6rem;
+    width: 1.8rem;
+  }
+  
+  .sm3Image {
+    position: absolute;
+    border: #fff;
+    height: auto;
+    right: 5rem;
+    bottom: 6rem;
+    width: 1.8rem;
+  }
+  
+  .pillarText {
+    position: absolute;
+    color: white;
+    bottom: 3rem;
+    right: 14rem;
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+  
+  .sm4Image {
+    height: auto;
+    width: 1.8rem;
+  }
+  
+  .apple {
+    position: absolute;
+    bottom: 4rem;
+    left: 5rem;
+    animation: stores 1s 3.5s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .appleText {
+    position: relative;
+    color: #fff;
+    bottom: 3rem;
+    left: 2.5rem;
+  }
+  
+  .googleText {
+    position: relative;
+    color: #fff;
+    bottom: 3rem;
+    left: 2.5rem;
+    background-color: black;
+  }
+  
+  .sm5Image {
+    height: auto;
+    width: 1.8rem;
+  }
+  
+  .googlePlay {
+    position: absolute;
+    bottom: 4rem;
+    left: 14rem;
+    animation: stores 1s 3.5s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes stores {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .downArrow {
+    position: absolute;
+    bottom: 2.8rem;
+    left: 50%;
+    height: auto;
+    width: 1.5rem;
+    opacity: 0;
+    animation: stores 1s 3.5s ease-in-out forwards;
+  }
+  
